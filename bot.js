@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const myid = ['Your ID']
+const myid = ['なぜ私は生きているのですか？#4119']
 const client = new Discord.Client();
 const client2 = new Discord.Client();
 const client3 = new Discord.Client();
@@ -373,7 +373,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
-        message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
+        message.channel.send(`hello)
           .then(m => {
             count++;
           })
